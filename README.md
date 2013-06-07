@@ -10,4 +10,4 @@ Install
 
 1. get [nodejs](http://nodejs.org)
 1. npm install
-1. coffee app.coffee
+1. node_modules/coffee-script/bin/coffee app.coffee

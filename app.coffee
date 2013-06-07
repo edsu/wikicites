@@ -44,7 +44,6 @@ changes.listen (change) ->
     rvlimit: 2
     format: 'json'
   process.stdout.write('.')
-  console.log qs.rvstartid
   request.get wikipedia, qs: qs, json: true, (e, r, results) ->
     for pageId, page of results.query.pages
       for cite in newCites(page.revisions)

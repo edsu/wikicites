@@ -5,6 +5,8 @@
     "dependencies": {
       "express": "latest",
       "socket.io": "latest",
-      "wikichanges": "latest"
+      "wikichanges": "latest",
+      "request": "latest",
+      "coffee-script": "latest"
     }
 }
