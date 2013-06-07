@@ -9,5 +9,7 @@ Install
 -------
 
 1. get [nodejs](http://nodejs.org)
+1. git clone https://github.com/edsu/wikicites.git
+1. cd wikicites
 1. npm install
 1. node_modules/coffee-script/bin/coffee app.coffee
