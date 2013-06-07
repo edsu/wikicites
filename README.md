@@ -9,5 +9,5 @@ Install
 -------
 
 1. get [nodejs](http://nodejs.org)
-1. npm install -g coffee-script
+1. npm install
 1. coffee app.coffee
