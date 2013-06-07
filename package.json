@@ -1,0 +1,10 @@
+{
+    "name": "wikistream",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+      "express": "latest",
+      "socket.io": "latest",
+      "wikichanges": "latest"
+    }
+}
