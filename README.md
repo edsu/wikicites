@@ -12,10 +12,10 @@ Install
 Develop 
 -------
 
-1. git checkout https://github.com/edsu/wikicites.git
-1. cd wikicites
-1. npm install --dev
-1. mocha
+    git checkout https://github.com/edsu/wikicites.git
+    cd wikicites
+    npm install --dev
+    mocha
 
 [![Build
 Status](https://travis-ci.org/edsu/wikicites.png?branch=master)](https://travis-ci.org/edsu/wikicites)
