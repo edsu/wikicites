@@ -9,19 +9,6 @@ Install
 1. get [nodejs](http://nodejs.org)
 1. npm install wikicites
 
-Develop 
--------
-
-    git checkout https://github.com/edsu/wikicites.git
-    cd wikicites
-    npm install --dev
-    mocha
-
-[![Build
-Status](https://travis-ci.org/edsu/wikicites.png?branch=master)](https://travis-ci.org/edsu/wikicites)
-
-Note: build may fail due if there aren't any citations before the tests timeout.
-
 Use
 ---
 
@@ -94,6 +81,20 @@ which would represent the following citation wikitext:
 
 You can see that the JSON object also includes information about the change
 itself, what article it appears in, etc.
+
+Develop 
+-------
+
+    git checkout https://github.com/edsu/wikicites.git
+    cd wikicites
+    npm install --dev
+    mocha
+
+[![Build
+Status](https://travis-ci.org/edsu/wikicites.png?branch=master)](https://travis-ci.org/edsu/wikicites)
+
+Note: build may fail due if there aren't any citations before the tests timeout.
+
 
 License
 -------
