@@ -9,6 +9,19 @@ Install
 1. get [nodejs](http://nodejs.org)
 1. npm install wikicites
 
+Develop 
+-------
+
+1. git checkout https://github.com/edsu/wikicites.git
+1. cd wikicites
+1. npm install --dev
+1. mocha
+
+[![Build
+Status](https://travis-ci.org/edsu/wikicites.png?branch=master)](https://travis-ci.org/edsu/wikicites)
+
+Note: build may fail due if there aren't any citations before the tests timeout.
+
 Use
 ---
 
