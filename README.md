@@ -13,7 +13,7 @@ Use
 
 ### CoffeeScript
 
-```coffescript
+```coffeescript
 WikiCites = require('wikicites').WikiCites
 
 w = new WikiCites()
