@@ -1,7 +1,8 @@
 wikicites
 =========
 
-wikicites is a module that allows you to get a stream of recent citations out of Wikipedia(s) as JSON.  Citations are the foundation of Wikipedia, since editors are strive for [verifiability, not truth](https://en.wikipedia.org/wiki/Wikipedia:Verifiability,_not_truth) and citations are what make verification possible.
+wikicites is a module that allows you to get a stream of recent citations out of Wikipedia(s) as JSON.  Citations are the foundation of Wikipedia, since editors are focused on [verifiability, not truth](https://en.wikipedia.org/wiki/Wikipedia:Verifiability,_not_truth), and citations are what make verification possible.
+
 Install
 -------
 
