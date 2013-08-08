@@ -27,7 +27,7 @@ w.listen (citation) ->
 ```javascript
 var WikiCites = require('wikicites').WikiCites;
 
-w = new WikiCItes()
+w = new WikiCites()
 w.listen(function(citation) {
   console.log(citation);
 });
