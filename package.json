@@ -1,12 +1,13 @@
 {
-    "name": "wikistream",
-    "version": "0.0.1",
-    "private": true,
-    "dependencies": {
-      "express": "latest",
-      "socket.io": "latest",
-      "wikichanges": "latest",
-      "request": "latest",
-      "coffee-script": "latest"
-    }
+  "name": "wikicites",
+  "version": "0.0.2",
+  "main": "wikicites",
+  "dependencies": {
+    "wikichanges": "latest",
+    "request": "latest",
+    "coffee-script": "latest"
+  },
+  "devDependencies": {
+    "mocha": "latest"
+  }
 }
