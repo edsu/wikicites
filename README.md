@@ -1,7 +1,7 @@
 wikicites
 =========
 
-wikicites is a module that allows you to get a stream of recent citations out of Wikipedia(s) as JSON.  Citations are the foundation of Wikipedia, since editors are focused on [verifiability instead of truth](https://en.wikipedia.org/wiki/Wikipedia:Verifiability,_not_truth), and citations are what make verification possible.
+wikicites is a module that allows you to get a stream of recent citations out of Wikipedia(s) as JSON.  Citations are the bedrock of Wikipedia, since editors are interested in [verifiability not truth](https://en.wikipedia.org/wiki/Wikipedia:Verifiability,_not_truth)...and citations are a big part of what makes verification possible.
 
 Install
 -------
@@ -85,21 +85,25 @@ itself, what article it appears in, etc.
 Develop 
 -------
 
+To hack on wikicites you'll need to clone this repository, install the 
+dependencies, and then run the test suite with mocha:
+
     git checkout https://github.com/edsu/wikicites.git
     cd wikicites
     npm install
-    # need to get mocha in your path
-    export PATH=node_modules/.bin/:$PATH
-    mocha
+    node_modules/.bin/mocha 
 
-[![Build
-Status](https://travis-ci.org/edsu/wikicites.png?branch=master)](https://travis-ci.org/edsu/wikicites)
+If you use mocha with other projects you may want to install it globally which
+will put it in your system PATH:
 
-Note: build may fail due if there aren't any citations before the tests timeout.
+    npm install -g mocha
 
+Some tests may spuriously fail if they timeout before an edit with a citation 
+occurs on Wikipedia.
+
+[![Build Status](https://travis-ci.org/edsu/wikicites.png?branch=master)](https://travis-ci.org/edsu/wikicites)
 
 License
 -------
 
 * CC0
->>>>>>> b03f62e675856f6330c3c2ef722914a5ee053cc7
