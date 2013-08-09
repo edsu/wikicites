@@ -1,7 +1,10 @@
 wikicites
 =========
 
-wikicites is a module that allows you to get a stream of recent citations out of Wikipedia(s) as JSON.  Citations are the bedrock of Wikipedia, since editors are interested in [verifiability not truth](https://en.wikipedia.org/wiki/Wikipedia:Verifiability,_not_truth)...and citations are a big part of what makes verification possible.
+wikicites is a module that allows you to get a stream of recent citations 
+out of Wikipedia(s) as JSON.  Citations are the bedrock of Wikipedia, since 
+editors are interested in [verifiability not truth](https://en.wikipedia.org/wiki/Wikipedia:Verifiability,_not_truth) ... 
+and citations are a big part of what makes verification possible.
 
 Install
 -------
@@ -35,7 +38,8 @@ w.listen(function(citation) {
 
 ### Citation Data 
 
-In these two examples a callback is being passed each citation as it occurs, and it is written to the console. Each citation JavaScript object that will look something like:
+In these two examples a callback is receiving a citation as it occurs in an edit
+on Wikipedia. The citation is a JavaScript object that will look something like:
 
 ```javascript
 {
@@ -79,8 +83,10 @@ which would represent the following citation wikitext:
       |newspaper=The Guardian|date=12 October 2004
     }}
 
-You can see that the JSON object also includes information about the change
-itself, what article it appears in, etc.
+In addition to the citation information you can see that the JSON object 
+includes information about the change itself, what Wikipedia article the 
+citation appears in, what Wikipedia the article belongs to, who made the edit, 
+etc.
 
 Develop 
 -------
