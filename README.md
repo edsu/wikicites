@@ -17,7 +17,7 @@ Use
 ```coffeescript
 WikiCites = require('wikicites').WikiCites
 
-w = new WikiCites(channels: ["#en.wikipedia"])
+w = new WikiCites(channels: ["\#en.wikipedia"])
 w.listen (citation) ->
   console.log citation
 ```
