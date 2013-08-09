@@ -50,7 +50,7 @@ on Wikipedia. The citation is a JavaScript object that will look something like:
   "url": "http://www.guardian.co.uk/education/2004/oct/12/academicexperts.highereducationprofile?INTCMP=SRCH",
   "accessdate": "19 April 2011",
   "newspaper": "The Guardian",
-  "date": "12 October 2004}}",
+  "date": "12 October 2004",
   "change": {
     "channel": "#en.wikipedia",
     "flag": "",
@@ -80,8 +80,8 @@ which would represent the following citation wikitext:
       |title=David Cesarani: The making of a defiant moderate
       |url=http://www.guardian.co.uk/education/2004/oct/12/academicexperts.highereducationprofile?INTCMP=SRCH
       |accessdate=19 April 2011
-      |newspaper=The Guardian|date=12 October 2004
-    }}
+      |newspaper=The Guardian
+      |date=12 October 2004}}
 
 In addition to the citation information you can see that the JSON object 
 includes information about the change itself, what Wikipedia article the 
