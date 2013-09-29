@@ -11,7 +11,7 @@ class WikiCites
 
   listen: (callback) ->
     changes = new wikichanges.WikiChanges(
-      ircNickname: 'wikilinks'
+      ircNickname: 'wikicites'
       wikipedias: @channels
     )
     changes.listen (change) =>
@@ -51,8 +51,8 @@ class WikiCites
               cites.push(_parseCite(cite))
       return cites
 
-
     _parseCite = (citeText) ->
+      citeText = citeText.replace(/(^{{)|(}}$)/g, '')
       parts = (p.replace(/^\s+|\s+$/g, '') for p in citeText.split('|'))
       cite = type: parts.shift().split(' ')[1]
       for p in parts

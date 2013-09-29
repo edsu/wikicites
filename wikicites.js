@@ -35,7 +35,7 @@
         _this = this;
 
       changes = new wikichanges.WikiChanges({
-        ircNickname: 'wikilinks',
+        ircNickname: 'wikicites',
         wikipedias: this.channels
       });
       changes.listen(function(change) {
@@ -106,6 +106,7 @@
       return _parseCite = function(citeText) {
         var cite, m, p, parts, _i, _len;
 
+        citeText = citeText.replace(/(^{{)|(}}$)/g, '');
         parts = (function() {
           var _i, _len, _ref, _results;
 
