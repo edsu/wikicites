@@ -58,7 +58,9 @@ class WikiCites
       for p in parts
         m = p.match(/^(.+?)=(.+)$/)
         if m
-          cite[m[1]] = m[2]
+          k = m[1].trim()
+          v = m[2].trim()
+          cite[k] = v
       return cite
 
 
