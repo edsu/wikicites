@@ -104,7 +104,7 @@
         return cites;
       };
       return _parseCite = function(citeText) {
-        var cite, m, p, parts, _i, _len;
+        var cite, k, m, p, parts, v, _i, _len;
 
         citeText = citeText.replace(/(^{{)|(}}$)/g, '');
         parts = (function() {
@@ -125,7 +125,9 @@
           p = parts[_i];
           m = p.match(/^(.+?)=(.+)$/);
           if (m) {
-            cite[m[1]] = m[2];
+            k = m[1].trim();
+            v = m[2].trim();
+            cite[k] = v;
           }
         }
         return cite;
